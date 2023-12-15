@@ -1,0 +1,20 @@
+/* print-styles.css */
+
+/* Oculta el panel al imprimir */
+.card {
+    display: none !important;
+}
+
+/* Estilos adicionales para la impresión si es necesario */
+
+@media print {
+    /* Oculta el panel izquierdo en la versión impresa */
+    .sidebar {
+        display: none !important;
+    }
+
+    /* Muestra el elemento con la clase informacion-item en la versión impresa */
+    .informacion-item {
+        display: flex !important;
+    }
+}

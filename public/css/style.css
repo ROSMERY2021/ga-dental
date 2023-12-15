@@ -1,0 +1,62 @@
+/* Estilos para el odontograma */
+.odontogram {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilos para cada diente */
+.tooth {
+    width: 60px; /* Ancho del elemento del diente */
+    height: 60px; /* Alto del elemento del diente */
+    border: 1px solid #000; /* Borde del elemento del diente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px; /* Espacio entre los elementos de dientes */
+}
+
+/* Estilos para el número del diente */
+.tooth span {
+    font-weight: bold;
+}
+
+/* Estilos para el cuadro de color del diente */
+.tooth-color {
+    width: 80%; /* Ancho del cuadro de color del diente */
+    height: 80%; /* Alto del cuadro de color del diente */
+    border-radius: 50%; /* Hacer el cuadro de color circular (puede variar según tus necesidades) */
+}
+
+/* Estilos para el formulario de color */
+.tooth form {
+    margin-top: 5px;
+}
+
+/* Estilos para el botón de guardar */
+.tooth button {
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Estilos para el input de color */
+.tooth input[type="color"] {
+    width: 100px; /* Ancho del input de color */
+}
+
+
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#informacion-diente {
+    width: 200px;
+}
+
